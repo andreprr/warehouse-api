@@ -24,7 +24,8 @@ python manage.py migrate
 python manage.py runserver
 ```
 
- --- # 🔗 API ENDPOINTS ## ✅ Items 
+--- # 🔗 API ENDPOINTS 
+ ## ✅ Items 
 ```
 GET /items/ # List semua item
 POST /items/ # Tambah item
