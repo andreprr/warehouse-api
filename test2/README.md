@@ -5,11 +5,12 @@
 -  💸 Sells (stok keluar)
 -  📊 Laporan pergerakan stok (FIFO) dalam JSON
 
-# 🚀 Cara Menjalankan Project ## 1. Clone project dan masuk folder assignment 
+# 🚀 Cara Menjalankan Project 
+## 1. Clone project dan masuk folder assignment 
 ```
  git clone https://github.com/andreprr/warehouse-api.git cd warehouse-api/test2/
 ```
- ## 2. Buat virtual environment & install dependencies 
+## 2. Buat virtual environment & install dependencies 
 ```
 python -m venv venv
 source venv/bin/activate # Linux/Mac
