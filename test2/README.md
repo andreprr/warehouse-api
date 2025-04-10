@@ -1,6 +1,6 @@
-<pre lang="bash"> 
+
 # 📦 Stock Warehouse API Take Home Assignment Task 2 - Katekima Dibuat dengan Django + Django REST Framework Warehouse system untuk mengelola: - 📦 Items - 🛒 Purchases (stok masuk) - 💸 Sells (stok keluar) - 📊 Laporan pergerakan stok (FIFO) dalam JSON --- # 🚀 Cara Menjalankan Project ## 1. Clone project dan masuk folder assignment 
-bash git clone https://github.com/andreprr/warehouse-api.git cd warehouse-api/Assignment\ 2/
+bash git clone https://github.com/andreprr/warehouse-api.git cd warehouse-api/test2/
  ## 2. Buat virtual environment & install dependencies 
 bash python -m venv venv source venv/bin/activate # Linux/Mac venv\Scripts\activate # Windows pip install -r requirements.txt
  ## 3. Migrasi database dan jalankan server 
@@ -13,6 +13,6 @@ bash POST /purchase/ # Buat header pembelian POST /purchase/{code}/details/ # Ta
 bash POST /sell/ # Buat header penjualan POST /sell/{code}/details/ # Tambah detail penjualan (kurangi stock & balance) GET /sell/ # Lihat semua penjualan
  ## ✅ Report 
 bash GET /report/{item_code}/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD # Hasil laporan berupa JSON dengan rincian transaksi dan FIFO balance
- --- # 📌 Catatan - Semua model menggunakan soft delete (is_deleted = True) - Transaksi otomatis update stock dan balance - Laporan report JSON mengikuti FIFO logic --- # 📎 Teknologi 
+ --- # 📌 Catatan - Semua model menggunakan soft delete (is_deleted = True) - Transaksi otomatis update stock dan balance - Laporan report JSON mengikuti FIFO logic --- # 
+ 📎 Teknologi 
 bash Python >= 3.12 Django >= 5.1.3 Django REST Framework >= 3.15.2
- </pre>
