@@ -1,5 +1,11 @@
 
-# 📦 Stock Warehouse API Take Home Assignment Task 2 - Katekima Dibuat dengan Django + Django REST Framework Warehouse system untuk mengelola: - 📦 Items - 🛒 Purchases (stok masuk) - 💸 Sells (stok keluar) - 📊 Laporan pergerakan stok (FIFO) dalam JSON --- # 🚀 Cara Menjalankan Project ## 1. Clone project dan masuk folder assignment 
+# 📦 Stock Warehouse API Take Home Assignment Task 2 - Katekima Dibuat dengan Django + Django REST Framework Warehouse system untuk mengelola: 
+- 📦 Items
+-  🛒 Purchases (stok masuk)
+-  💸 Sells (stok keluar)
+-  📊 Laporan pergerakan stok (FIFO) dalam JSON
+
+# 🚀 Cara Menjalankan Project ## 1. Clone project dan masuk folder assignment 
 bash git clone https://github.com/andreprr/warehouse-api.git cd warehouse-api/test2/
  ## 2. Buat virtual environment & install dependencies 
 bash python -m venv venv source venv/bin/activate # Linux/Mac venv\Scripts\activate # Windows pip install -r requirements.txt
