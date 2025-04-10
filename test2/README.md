@@ -24,7 +24,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
---- # 🔗 API ENDPOINTS 
+# 🔗 API ENDPOINTS 
  ## ✅ Items 
 ```
 GET /items/ # List semua item
@@ -53,7 +53,7 @@ GET /sell/ # Lihat semua penjualan
 GET /report/{item_code}/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD # Hasil laporan berupa JSON dengan rincian transaksi dan FIFO balance
 ```
 
---- # 📌 Catatan 
+# 📌 Catatan 
 - Semua model menggunakan soft delete (is_deleted = True)
 - Transaksi otomatis update stock dan balance
 - Laporan report JSON mengikuti FIFO logic
