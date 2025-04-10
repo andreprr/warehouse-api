@@ -47,6 +47,12 @@ GET /sell/ # Lihat semua penjualan
 GET /report/{item_code}/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD # Hasil laporan berupa JSON dengan rincian transaksi dan FIFO balance
 ```
 
- --- # 📌 Catatan - Semua model menggunakan soft delete (is_deleted = True) - Transaksi otomatis update stock dan balance - Laporan report JSON mengikuti FIFO logic --- # 
+ --- # 📌 Catatan 
+- Semua model menggunakan soft delete (is_deleted = True)
+-  Transaksi otomatis update stock dan balance
+- Laporan report JSON mengikuti FIFO logic --- #
+
  📎 Teknologi 
-bash Python >= 3.12 Django >= 5.1.3 Django REST Framework >= 3.15.2
+```
+ Python >= 3.12 Django >= 5.1.3 Django REST Framework >= 3.15.2
+```
