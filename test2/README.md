@@ -11,12 +11,16 @@
 ```
  ## 2. Buat virtual environment & install dependencies 
 ```
-python -m venv venv source venv/bin/activate # Linux/Mac venv\Scripts\activate # Windows pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate # Linux/Mac
+venv\Scripts\activate # Windows
+pip install -r requirements.txt
 ```
 
  ## 3. Migrasi database dan jalankan server 
 ```
- python manage.py migrate python manage.py runserver
+python manage.py migrate
+python manage.py runserver
 ```
 
  --- # 🔗 API ENDPOINTS ## ✅ Items 
@@ -47,10 +51,11 @@ GET /sell/ # Lihat semua penjualan
 GET /report/{item_code}/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD # Hasil laporan berupa JSON dengan rincian transaksi dan FIFO balance
 ```
 
- --- # 📌 Catatan 
+--- # 📌 Catatan 
 - Semua model menggunakan soft delete (is_deleted = True)
--  Transaksi otomatis update stock dan balance
-- Laporan report JSON mengikuti FIFO logic --- #
+- Transaksi otomatis update stock dan balance
+- Laporan report JSON mengikuti FIFO logic
+--- #
 
  📎 Teknologi 
 ```
